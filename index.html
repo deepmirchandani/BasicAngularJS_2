@@ -13,10 +13,14 @@
     <!-- Configure SystemJS -->
     <script src="systemjs.config.js"></script>
     <script>
-        System.import('app').catch(function (err) { console.error(err); });
+        System.import('app').catch(function (err) { console.error(err); }); 
     </script>
 </head>
 <body> 
     <my-firstcomponent>Loading My First Compnent ...</my-firstcomponent>    
+    <my-twoComponent>LOADING</my-twoComponent>
+    <!--<div *ngFor="let hero of heroes" (click)="gotoDetail(hero)">
+        <diV>{{hero.firstname}}</diV>
+    </div>-->
 </body>
 </html>

@@ -12,7 +12,7 @@ var core_1 = require('@angular/core');
 var FirstComponent = (function () {
     function FirstComponent() {
         this.first = { content: 'Angular 2 Start' };
-        this.color = 'green';
+        this.color = 'red';
     }
     FirstComponent = __decorate([
         core_1.Component({
