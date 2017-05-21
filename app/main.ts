@@ -6,4 +6,4 @@ import { enableProdMode } from '@angular/core';
 enableProdMode();
 
 bootstrap(FirstComponent).then(success => console.log('done 1')).catch(error => console.log(error));
-bootstrap(twoComponent).then(success => console.log('done 2')).catch(error => console.log(error))
+bootstrap(twoComponent).then(success => console.log('done 2')).catch(error => console.log(error));
