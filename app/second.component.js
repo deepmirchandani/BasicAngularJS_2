@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var twoComponent = (function () {
     function twoComponent() {
-        this.EmpData = { EmpName: 'Deep Mirchandani' };
+        this.EmpData = { EmpName: 'Deep Mirchandani: Second Component' };
     }
     twoComponent = __decorate([
         core_1.Component({

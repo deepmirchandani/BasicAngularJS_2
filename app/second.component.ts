@@ -7,7 +7,7 @@ import {Component} from '@angular/core';
 
 export class twoComponent
 {
-    EmpData = {EmpName: 'Deep Mirchandani'};
+    EmpData = {EmpName: 'Deep Mirchandani: Second Component'};
     // heroes: Hero[] = [];
     // constructor(
     //     private router: Router, 

@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var FirstComponent = (function () {
     function FirstComponent() {
-        this.first = { content: 'Angular 2 Start' };
+        this.first = { content: 'Angular 2 Start:First Component' };
         this.color = 'red';
     }
     FirstComponent = __decorate([
